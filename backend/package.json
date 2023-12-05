@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "install": "npm install",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./index.js localhost 5000"
+    "start": "nodemon ./index.js"
   },
   "keywords": [],
   "author": "Leticia Kobayashi",
