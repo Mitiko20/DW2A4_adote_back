@@ -7,7 +7,7 @@ const app = express()
 app.use(express.json())
 
 // Solve CORS
-app.use(cors({ credentials: true, origin: 'http://localhost:3000' }))
+app.use(cors({ credentials: true, origin: 'https://mitiko20.github.io/DW2A4_Adote_front/' }))
 
 // Public folder for images
 app.use(express.static('public'))
