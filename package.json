@@ -9,8 +9,7 @@
   "scripts": {
     "install": "npm install",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js localhost 5000",
-    "build": "npm build"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "Leticia Kobayashi",
